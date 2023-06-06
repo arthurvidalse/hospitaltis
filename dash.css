@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, #8FDACC 0%, #5499FF 100%);
+    position: absolute;
+
+}
+
+.logo {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    left: 30px;
+}
+
+.branco {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    background-color: white;
+    top: 80px;
+    left: 175px;
+    border-radius: 30px;
+}
+
+.boxm {
+    width: 50%;
+    height: 38%;
+    position: absolute;
+    background-image: linear-gradient(to left, #8FDACC 0%, #5499FF 100%);
+    left: 250px;
+    top: 130px;
+    border-radius: 30px;
+}
+
+.boxp {
+    width: 25%;
+    height: 38%;
+    position: absolute;
+    background-image: linear-gradient(to left, #8FDACC 0%, #5499FF 100%);
+    left: 1300px;
+    top: 130px;
+    border-radius: 30px;
+}
+
+.pacientes {
+    position: absolute;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    top: 160px;
+    left: 17%;
+}
+
+.doutori {
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 134px;
+    left: 800px;
+
+}
+
+.dash {
+    position: absolute;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    left: 42%;
+    top: 15px;
+}
+
+.estrela {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    top: 36%;
+    left: 350px;
+    z-index: 1;
+}
+
+.relogio {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    top: 44%;
+    left: 350px;
+    z-index: 1;
+}
+
+.miniq1 {
+    width: 2%;
+    height: 4%;
+    position: absolute;
+    background-color: white;
+    top: 43%;
+    left: 341px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.miniq2 {
+    width: 2%;
+    height: 4%;
+    position: absolute;
+    background-color: white;
+    top: 35%;
+    left: 341px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.minuto {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: white;
+    top: 410px;
+    left: 390px;
+}
+
+.bolsonaro {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: white;
+    top: 420px;
+    left: 390px;
+}
+
+.media {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: white;
+    top: 333px;
+    left: 390px;
+}
+
+.numeromedia {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: white;
+    top: 343px;
+    left: 390px;
+}
+
+.minibox {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    background-color: white;
+    top: 380px;
+    left: 1348px;
+    border-radius: 20px;
+}
+
+#map {
+    height: 300px;
+    width: 20%;
+
+  }
+
+.mapah {
+    position: absolute;
+    width: 25%;
+    height: 38%;
+    left: 1300px;
+    top: 560px;
+    border-radius: 20px;
+}
+
+.mapanome {
+    position: absolute;
+    color: blue;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    left: 1305px;
+    top: 525px;
+    opacity: 0.6;
+}
+
+.bloco1inf {
+    width: 20%;
+    height: 38%;
+    position: absolute;
+    background-image: linear-gradient(to left, #8FDACC 0%, #5499FF 100%);
+    top: 560px;
+    left: 250px;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.bloco2inf {
+    width: 27%;
+    height: 38%;
+    position: absolute;
+    background-image: linear-gradient(to left, #8FDACC 0%, #5499FF 100%);
+    top: 560px;
+    left: 690px;
+    border-radius: 20px;
+}
+
+.medicosava {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    top: 575px;
+    left: 720px;
+}
+
+.medico1 {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    background-color: white;
+    left: 755px;
+    top: 635px;
+    border-radius: 20px;
+}
+
+.medico2 {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    background-color: white;
+    left: 755px;
+    top: 775px;
+    border-radius: 20px;
+}
+
+.counter {
+    position: absolute;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    top: 160px;
+    left: 17%;
+    font-size: 100px;
+  }
+
+.medicoperfil1 {
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    top: 655px;
+    left: 770px;
+}
+
+.marias {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    top: 670px;
+    left: 838px;
+}
+
+.notamarias {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    top: 674px;
+    left: 1050px;
+}
+
+.quadradomaria {
+    width: 2%;
+    height: 4%;
+    position: absolute;
+    background-color: green;
+    top: 669px;
+    left: 1043px;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.onlinemaria {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: lightgreen;
+    top: 690px;
+    left: 838px;
+}
+
+.medicoperfil2 {
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    top: 795px;
+    left: 770px;
+}
+
+.anasilva {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    top: 810px;
+    left: 838px;
+}
+
+.notaanas {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    top: 815px;
+    left: 1051px;
+}
+
+.quadradoana {
+    width: 2%;
+    height: 4%;
+    position: absolute;
+    background-color: green;
+    top: 808px;
+    left: 1043px;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.onlineana {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: lightgreen;
+    top: 829px;
+    left: 838px;
+}
+
+.textoia {
+    position: absolute;
+    font-size: 100px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    top: 170px;
+    left: 1490px;
+}
+
+.subtextoia {
+    position: absolute;
+    font: 25px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    top: 310px;
+    left: 1355px;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    left: 1450px;
+    top: 70px;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #5499FF;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #5499FF;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+
+
+.uflogo {
+    width: 15%;
+    height: 12%;
+    position: absolute;
+    left: 300px;
+    top: 680px;
+
+}
